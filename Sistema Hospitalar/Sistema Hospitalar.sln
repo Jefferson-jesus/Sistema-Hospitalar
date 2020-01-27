@@ -5,7 +5,23 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{7694A700-07F0-4AD1-92A4-24EA203AA63F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema_Hospitalar.ui", "Sistema_Hospitalar.ui\Sistema_Hospitalar.ui.csproj", "{2FEACFCA-0C68-41BC-9884-B29F77A1A585}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sistema_Hospitalar.ui", "Sistema_Hospitalar.ui\Sistema_Hospitalar.ui.csproj", "{2FEACFCA-0C68-41BC-9884-B29F77A1A585}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{64851931-8C72-4A68-932E-12548A1D32BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{B35609F4-4306-4E5B-9F58-7DE0CC9D905B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{17C161FA-BC3D-4671-91C2-27DB777624EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{67DFAD37-2FAD-4084-AD71-DD6516B481DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema.Hospitalar.Application", "Sistema.Hospitalar.Application\Sistema.Hospitalar.Application.csproj", "{E661A741-4622-4690-8424-259B168D71CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema.Hospitalar.Domain", "Sistema.Hospitalar.Domain\Sistema.Hospitalar.Domain.csproj", "{5053AAD1-9117-4694-A5A4-D901AA3156FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{E344A1FA-AB10-4040-AC8F-92331A8C6353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema.Hospitalar.Infrastructure", "Sistema.Hospitalar.Infrastructure\Sistema.Hospitalar.Infrastructure.csproj", "{04F50223-1236-48A2-86A9-B147A92AD63C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +33,28 @@ Global
 		{2FEACFCA-0C68-41BC-9884-B29F77A1A585}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FEACFCA-0C68-41BC-9884-B29F77A1A585}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FEACFCA-0C68-41BC-9884-B29F77A1A585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E661A741-4622-4690-8424-259B168D71CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E661A741-4622-4690-8424-259B168D71CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E661A741-4622-4690-8424-259B168D71CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E661A741-4622-4690-8424-259B168D71CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5053AAD1-9117-4694-A5A4-D901AA3156FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5053AAD1-9117-4694-A5A4-D901AA3156FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5053AAD1-9117-4694-A5A4-D901AA3156FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5053AAD1-9117-4694-A5A4-D901AA3156FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F50223-1236-48A2-86A9-B147A92AD63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F50223-1236-48A2-86A9-B147A92AD63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F50223-1236-48A2-86A9-B147A92AD63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F50223-1236-48A2-86A9-B147A92AD63C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2FEACFCA-0C68-41BC-9884-B29F77A1A585} = {7694A700-07F0-4AD1-92A4-24EA203AA63F}
+		{E661A741-4622-4690-8424-259B168D71CA} = {64851931-8C72-4A68-932E-12548A1D32BA}
+		{5053AAD1-9117-4694-A5A4-D901AA3156FA} = {B35609F4-4306-4E5B-9F58-7DE0CC9D905B}
+		{E344A1FA-AB10-4040-AC8F-92331A8C6353} = {17C161FA-BC3D-4671-91C2-27DB777624EF}
+		{04F50223-1236-48A2-86A9-B147A92AD63C} = {E344A1FA-AB10-4040-AC8F-92331A8C6353}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BE8AA3C3-3A2D-487D-A961-B64206B0A0B7}

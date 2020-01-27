@@ -2,20 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Sistema.Hospitalar.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Sistema.Hospitalar.Domain": "1.0.0",
-          "Sistema.Hospitalar.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Sistema.Hospitalar.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Sistema.Hospitalar.Application.dll": {}
-        }
-      },
       "Sistema.Hospitalar.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -25,42 +11,18 @@
         "runtime": {
           "bin/placeholder/Sistema.Hospitalar.Domain.dll": {}
         }
-      },
-      "Sistema.Hospitalar.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Sistema.Hospitalar.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Sistema.Hospitalar.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Sistema.Hospitalar.Infrastructure.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "Sistema.Hospitalar.Application/1.0.0": {
-      "type": "project",
-      "path": "../Sistema.Hospitalar.Application/Sistema.Hospitalar.Application.csproj",
-      "msbuildProject": "../Sistema.Hospitalar.Application/Sistema.Hospitalar.Application.csproj"
-    },
     "Sistema.Hospitalar.Domain/1.0.0": {
       "type": "project",
       "path": "../Sistema.Hospitalar.Domain/Sistema.Hospitalar.Domain.csproj",
       "msbuildProject": "../Sistema.Hospitalar.Domain/Sistema.Hospitalar.Domain.csproj"
-    },
-    "Sistema.Hospitalar.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../Sistema.Hospitalar.Infrastructure/Sistema.Hospitalar.Infrastructure.csproj",
-      "msbuildProject": "../Sistema.Hospitalar.Infrastructure/Sistema.Hospitalar.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Sistema.Hospitalar.Application >= 1.0.0",
       "Sistema.Hospitalar.Domain >= 1.0.0"
     ]
   },
@@ -71,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\estudo\\NewProject\\Sistema-Hospitalar\\Sistema Hospitalar\\Sistema_Hospitalar.ui\\Sistema_Hospitalar.ui.csproj",
-      "projectName": "Sistema_Hospitalar.ui",
-      "projectPath": "C:\\projetos\\estudo\\NewProject\\Sistema-Hospitalar\\Sistema Hospitalar\\Sistema_Hospitalar.ui\\Sistema_Hospitalar.ui.csproj",
+      "projectUniqueName": "C:\\projetos\\estudo\\NewProject\\Sistema-Hospitalar\\Sistema Hospitalar\\Sistema.Hospitalar.Infrastructure\\Sistema.Hospitalar.Infrastructure.csproj",
+      "projectName": "Sistema.Hospitalar.Infrastructure",
+      "projectPath": "C:\\projetos\\estudo\\NewProject\\Sistema-Hospitalar\\Sistema Hospitalar\\Sistema.Hospitalar.Infrastructure\\Sistema.Hospitalar.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\jjesusol\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\estudo\\NewProject\\Sistema-Hospitalar\\Sistema Hospitalar\\Sistema_Hospitalar.ui\\obj\\",
+      "outputPath": "C:\\projetos\\estudo\\NewProject\\Sistema-Hospitalar\\Sistema Hospitalar\\Sistema.Hospitalar.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -94,9 +56,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\projetos\\estudo\\NewProject\\Sistema-Hospitalar\\Sistema Hospitalar\\Sistema.Hospitalar.Application\\Sistema.Hospitalar.Application.csproj": {
-              "projectPath": "C:\\projetos\\estudo\\NewProject\\Sistema-Hospitalar\\Sistema Hospitalar\\Sistema.Hospitalar.Application\\Sistema.Hospitalar.Application.csproj"
-            },
             "C:\\projetos\\estudo\\NewProject\\Sistema-Hospitalar\\Sistema Hospitalar\\Sistema.Hospitalar.Domain\\Sistema.Hospitalar.Domain.csproj": {
               "projectPath": "C:\\projetos\\estudo\\NewProject\\Sistema-Hospitalar\\Sistema Hospitalar\\Sistema.Hospitalar.Domain\\Sistema.Hospitalar.Domain.csproj"
             }
@@ -122,9 +81,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
